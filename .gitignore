@@ -1,0 +1,5 @@
+mysqldata
+log
+code/backend/vendor
+code/backend/.env
+code/frontend/node_modules

@@ -1,0 +1,6 @@
+FROM node:12.2.0-alpine
+
+WORKDIR /app
+RUN npm config set unsafe-perm true
+
+CMD ["npm", "run", "serve"]
